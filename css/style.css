@@ -1,0 +1,55 @@
+* {
+    background: rgb(235, 233, 233);
+}
+
+h1 {
+    background: gray;
+    color: blue;
+    font-size: 25px;
+    margin: 1%;
+}
+
+ul>li {
+    background: gray;
+    color: brown;
+}
+
+span.class1 {
+    background-color: DodgerBlue;
+    font-size: 20px;
+    margin: 2%;
+}
+
+span.class2 {
+    background-color: rgb(31, 200, 191);
+    font-size: 20px;
+    margin: 2%;
+}
+
+span.class3 {
+    background-color: rgb(30, 255, 120);
+    font-size: 20px;
+    margin: 2%;
+}
+
+span#class4 {
+    background-color: rgb(199, 233, 32);
+    font-size: 20px;
+    margin: 2%;
+}
+
+span#class5 {
+    background-color: rgb(245, 207, 36);
+    font-size: 20px;
+    margin: 2%;
+}
+
+#header,
+[type="password"],
+[type="email"],
+[type="checkbox"] {
+    background: rgb(11, 147, 154);
+    font-size: 55%;
+    padding-left: 3%;
+    margin: 1%;
+}

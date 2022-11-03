@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <input type="email" placeholder="email">
+        <input type="password" placeholder="password">
+        <input type="checkbox">
+    </header>
+    <main>
+        <div>
+            <h1>Селекторы бывают:</h1>
+            <ul>
+                <li>по названию элемента;</li>
+                <li>по id;</li>
+                <li>по классу;</li>
+                <li>по нескольким классам;</li>
+                <li>по вложенности.</li>
+            </ul>
+        </div>
+        <div>
+            <span class="class1">по названию элемента - этот базовый селектор выбирает тип элементов, к которым будет применяться правило;</span><br>
+            <span class="class2">по id - этот базовый селектор выбирает элементы, основываясь на значении их id атрибута;</span><br>
+            <span class="class3">по классу - этот базовый селектор выбирает элементы, основываясь на значении их атрибута class;</span><br>
+            <span id="class4">по нескольким классам - '~' выбирает элементы, которые находятся на этом же уровне вложенности, с тем же родителем;</span><br>
+            <span id="class5">по вложенности - '>' в отличие от пробела выбирает те элементы, которые являются дочерними по отношению к указанному элементу.</span><br>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
